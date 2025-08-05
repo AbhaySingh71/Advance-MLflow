@@ -7,9 +7,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
+import dagshub
+dagshub.init(repo_owner='AbhaySingh71', repo_name='Advance-MLflow', mlflow=True)
 
-
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("https://dagshub.com/AbhaySingh71/Advance-MLflow.mlflow")
 
 
 # Load the iris dataset
@@ -56,9 +57,6 @@ with mlflow.start_run(experiment_id='677906403814493186', run_name='Abhay_boss')
 
     # log the file
     mlflow.log_artifact(__file__)
-
-    # Enable complete experiment tracking with one line
-    mlflow.sklearn.autolog()
 
     # log the model
     mlflow.sklearn.log_model(dt, name="Decision_Tree_Model")
