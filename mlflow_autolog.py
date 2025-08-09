@@ -23,7 +23,7 @@ y = iris.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Parameters
-max_depth = 10
+max_depth = 20
 n_estimators = 100
 
 # Apply mlflow
@@ -54,7 +54,7 @@ with mlflow.start_run():
 
     # Log artifacts
     mlflow.log_artifact("confusion_matrix.png")
-    #mlflow.log_artifact(__file__)  # Log current script
+    mlflow.log_artifact(__file__)  # Log current script
 
 
     # Tags
