@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/abhay/Desktop/mlflow-dagshub/mlruns/977702991613526946/models/m-8295c1ec84394a5cb43029483caa8a4e/artifacts
+creation_timestamp: 1754666499663
+experiment_id: '977702991613526946'
+last_updated_timestamp: 1754666512035
+model_id: m-8295c1ec84394a5cb43029483caa8a4e
+model_type: ''
+name: sklearn-model
+source_run_id: 548f11038477446eba9ec1cbe8164897
+status: 2
+status_message: null

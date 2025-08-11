@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/abhay/Desktop/mlflow-dagshub/mlruns/977702991613526946/548f11038477446eba9ec1cbe8164897/artifacts
+end_time: 1754666512183
+entry_point_name: ''
+experiment_id: '977702991613526946'
+lifecycle_stage: active
+run_id: 548f11038477446eba9ec1cbe8164897
+run_name: legendary-roo-165
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754666499404
+status: 3
+tags: []
+user_id: abhay
