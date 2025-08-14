@@ -1,0 +1,29 @@
+What can MLflow track?
+1. Parameters -> model hyperparameters, data parameters
+2. Metrics
+3. Artifacts -> data, source code, plots, environment info
+4. Models
+5. Tags -> custom metadata
+6. Run and Experiment information
+
+# first demo of mlflow
+- into to Mlflow
+- create new dir
+- install mlflow
+- run mlflow -> walkthrough
+- concept of experiment and run
+- default experiment
+- mlruns folder
+- create your first run
+- create second run
+- compare both
+- revist mlruns folder
+- create new experiment -> attach experiment_name/experiment_id
+- set run name
+- log plots 
+- mlflow server -> mlflow.set_tracking_uri("http://127.0.0.1:5000")
+- log code
+- log model
+- set tags -> search
+- going back to mlruns folders
+- placement pred ml problem -> explain approach
